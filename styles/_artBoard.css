@@ -1,0 +1,33 @@
+
+.canvas-container {
+    background-color: #333;
+    position: relative;
+    width: 480px;
+    margin: 0 auto;
+    border: 10px solid black;
+}
+
+#artBoard {
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+#artBoard.converted {
+    background-color: #333;
+}
+
+#artBoard.wide {
+    width: 640px;
+}
+#artBoard.ultra {
+    width: 960px;
+}
+
+.artBoard {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
